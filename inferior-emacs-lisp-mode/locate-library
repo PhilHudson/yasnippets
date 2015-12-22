@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: locate-library
+# key: ll
+# --
+(locate-library "$0")

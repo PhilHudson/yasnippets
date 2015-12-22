@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: result-predicate-lambda
+# key: result-predicate-lambda
+# --
+(lambda (result) (${1:form}))$0

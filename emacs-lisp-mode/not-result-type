@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: not-result-type
+# key: not-result-type
+# --
+(not ${1:type})$0

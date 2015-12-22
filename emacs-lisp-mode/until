@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: until
+# key: until
+# --
+(until ${1:conditional}
+    (then
+        ${2:iteration}
+    )
+)$0

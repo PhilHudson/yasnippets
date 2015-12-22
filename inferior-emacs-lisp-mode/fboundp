@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fboundp
+# key: fbp
+# --
+(fboundp '$0)

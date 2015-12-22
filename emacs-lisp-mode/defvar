@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: defvar
+# key: dv
+# --
+(defvar ph/${1:symbol}
+    ${2:value}${3:
+    ${4:&optional }"${5:Documentation string}."}
+)$0

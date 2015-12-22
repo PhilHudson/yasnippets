@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: remove-hook
+# key: rmh
+# --
+(remove-hook '${1:hook} #'${2:function}${3: 'local})$0

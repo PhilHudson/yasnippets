@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: featurep
+# key: fp
+# --
+(featurep '${1:package})$0

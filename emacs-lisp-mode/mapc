@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: mapc
+# key: mapc
+# --
+(mapc
+    ${1:#'function}
+    ${2:sequence}
+)$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: remove-hook
+# key: rmh
+# --
+(remove-hook '${1:hook} '${2:function}${3: 'local})$0

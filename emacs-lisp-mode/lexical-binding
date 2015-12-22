@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: lexical-binding
+# key: lb
+# --
+ -*- lexical-binding: t; -*-

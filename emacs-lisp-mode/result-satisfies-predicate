@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: result-satisfies-predicate
+# key: result-satisfies-predicate
+# --
+(satisfies #'${1:$$(yas-choose-value '("function-symbol" "result-predicate-lambda"))})$0

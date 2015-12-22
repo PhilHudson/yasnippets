@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: string-match-p
+# key: smp
+# --
+(string-match-p ${1:REGEXP} ${2:STRING})$0

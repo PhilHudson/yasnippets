@@ -1,0 +1,5 @@
+#contributor: Phil Hudson (https://github.com/PhilHudson)
+#name: error
+#key: error
+# --
+(error "${1:error message}"${2: ${3:&optional ARGS}})$0

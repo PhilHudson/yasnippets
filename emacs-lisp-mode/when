@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# contributor: Phil Hudson (http://www.github.com/PhilHudson)
+# name: when
+# key: w
+# --
+(when ${1:conditional}
+    (then
+        ${2:`(or yas-selected-text "consequent")`}
+    )
+)$0

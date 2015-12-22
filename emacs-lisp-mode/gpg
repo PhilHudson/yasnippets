@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: gpg
+# key: gpg
+# --
+ -*- epa-file-encrypt-to: ("phil.hudson@iname.com") -*-

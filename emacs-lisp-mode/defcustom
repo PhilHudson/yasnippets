@@ -1,0 +1,11 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: defcustom
+# key: dfc
+# --
+(defcustom ${1:`(or (and (buffer-file-name) (concat (file-name-nondirectory (file-name-sans-extension (buffer-file-name))) "-")) "")`}${2:option}
+    ${3:standard-value}
+    "${4:doc}"${5:
+    :group '${6:`(or (and (buffer-file-name) (file-name-nondirectory (file-name-sans-extension (buffer-file-name)))) "group")`}}
+    :type '${7:$$(yas-choose-value '("boolean" "character" "coding-system" "color" "directory" "face" "file" "(file :must-match t)" "float" "function" "hook" "integer" "key-sequence" "number" "regexp" "sexp" "string" "symbol" "variable"))}
+)$0

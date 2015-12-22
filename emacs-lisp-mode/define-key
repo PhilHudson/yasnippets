@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name: define-key
+#key: dk
+# --
+(define-key ${1:keymap}${2: (kbd "${3:keys}")}${4: OR }${5: [remap ${6:old-command}]} #'${7:command})$0

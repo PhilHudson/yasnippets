@@ -1,0 +1,13 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: deftest
+# key: dt
+# --
+(ert-deftest ph/test-${1:case} ()
+    "Test ${2:something}."
+    ${3::expected-result ${4:$$(yas-choose-value '("nil" "t" ":failed" ":passed" "all-of-result-types" "any-of-result-types" "not-result-type" "result-satisfies-predicate"))}
+    }${6::tags '(${7:tag list})
+    }(${8:$$(yas-choose-value '("should" "should-not" "should-error :type error-type"))}
+        ($0)
+    )
+)

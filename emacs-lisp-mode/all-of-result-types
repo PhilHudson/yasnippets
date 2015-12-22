@@ -1,0 +1,6 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: all-of-result-types
+# key: all-of-result-types
+# --
+(and ${1:type list})$0

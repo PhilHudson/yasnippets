@@ -1,0 +1,8 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: add-functions-to-hook
+# key: afh
+# --
+(ph/add-functions-to-hook '${1:${2:${3:SOME}-mode}-hook}
+    #'${5:ph/}$0
+)

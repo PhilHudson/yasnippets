@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: artist
+# key: a
+# --
+ARTIST=$0

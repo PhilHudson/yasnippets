@@ -1,0 +1,5 @@
+#contributor: Phil Hudson (http://hudson-it.ddns.net)
+#name: expand-file-name
+#key: efn
+# --
+(expand-file-name "${1:~/}${2:`(or (and yas-selected-text (replace-regexp-in-string (format "^/\\(home\\|Users\\)/%s/" user-login-name) "" (replace-regexp-in-string "\"" "" yas-selected-text))) "pathname")`}")$0

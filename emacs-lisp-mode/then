@@ -1,0 +1,7 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: then
+# key: then
+# --
+(then
+    $0
+)

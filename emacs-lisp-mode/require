@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: require
+# key: rq
+# --
+(require '${1:feature})$0

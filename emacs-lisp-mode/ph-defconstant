@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: ph-defconstant
+# key: pdc
+# --
+(ph/defconstant ph/${1:symbol}
+    ${2:value}
+    "${3:Documentation string}."
+)$0

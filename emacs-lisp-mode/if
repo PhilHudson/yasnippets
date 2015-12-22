@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: if
+# key: if
+# --
+(if ${1:conditional}
+    (then
+        ${2:`(or yas-selected-text "consequent")`}
+    )
+    (else
+        ${3:alternate}
+    )
+)$0

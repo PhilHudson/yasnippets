@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: changelog
+# key: chl
+# binding: direct-keybinding
+# --
+;; `(format-time-string "%Y-%m-%d%Z%H:%M")`
+;;  * `user-full-name`:
+;;    * $0
+;;

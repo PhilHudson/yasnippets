@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: macroexpand-all
+# key: mxa
+# --
+(macroexpand-all '${1:`(or yas/selected-text "(MACRO-SEXP)")`})$0

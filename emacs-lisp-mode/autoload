@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: autoload
+# key: al
+# --
+(autoload #'${1:`(or yas-selected-text "function")`} "${2:filename}"${3: ${4:"${5:doco}"}${6: ${7:interactive-flag$$(yas-choose-value '("nil" "'interactive"))}${8: ${9:type$$(yas-choose-value '("nil" "'keymap" "'macro"))}}}})$0

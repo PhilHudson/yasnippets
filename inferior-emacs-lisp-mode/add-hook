@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: add-hook
+# key: ahk
+# --
+(add-hook '${1:hook} #'${2:function}${3: ${4:'appending}${5: 'local}})$0
