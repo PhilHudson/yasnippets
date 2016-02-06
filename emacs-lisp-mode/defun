@@ -4,6 +4,6 @@
 # key: def
 # --
 (defun ph/${1:function} ($2)
-    "${3:Process }${2:$(upcase yas-text)}."   
+    "${3:Process }${2:$(upcase (replace-regexp-in-string "&[^ ]* ?" "" yas-text))}."
     $0
 )
