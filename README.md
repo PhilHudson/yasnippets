@@ -1,10 +1,26 @@
 # yasnippets
-My custom yasnippet snippets.
+# Phil Hudson's custom yasnippet snippets.
 
-Don't know how much awesomeness there is there, probably too complex as usual. Anyway, you need to know that I make use of a lot of placeholders containing smaller placeholders, wherever there's something optional: the idea is, if you don't need the optional things (for instance the optional arguments to `autoload`) you just hit `C-d` to remove (in this case) both of them, otherwise you tab again to get "inside" the group and edit the first one -- in this case, presumably, to specify `'interactive`.
+## Smart, cool snippets (I hope)
+These snippets make use of a lot of tab-navigation placeholders containing smaller nested placeholders, wherever there's something optional that you might not want to have to fill in. The idea is, if you don't need the optional things (for instance the optional arguments to `autoload`) you just hit `C-d` to remove (in this case) both of them, otherwise you tab again to get "inside" the group and edit the first one -- in this case, presumably, to specify `'interactive`.
 
-Oh, yes, I use C-style outdenting. That's right: closing parens on their own lines. Block structuring, visually represented. The AST, visually represented. Sexp nesting, visually represented. The right way. Because I have a great big portrait display. Get over it. Better still, get with it. Join us on the sunlit uplands of enlightenment. Those "historical reasons" for "the Lisp way"? They aren't reasons at all. They're mindless habit, they're unthinking convention, they're brute conformity raised to the level of principle, and they're butt-aching stupid. And they make Lisp even more impenetrable and unapproachable than it needs to be for non-Lispers.
+Easier to demo than explain:
 
-Or you could just `M-^` them all onto one line yourself. Just don't PR me with that... stuff. OK?
+  (autoload FUNCTION FILE &optional DOCSTRING INTERACTIVE TYPE)
 
+has the following tab-navigation placeholders, which you can just tab to and type to replace:
+
+1. FUNCTION
+2. FILE
+
+then:
+
+3. Everything after FILE, including the space character before "&optional". Tab to this and hit C-d if you want to just remove all the optional stuff (the most common use case).
+
+## Idiosyncratic Elisp formatting
+I use C-style outdenting. That's right: closing parens on their own lines. Block structuring, visually represented. The AST, visually represented. Sexp nesting, visually represented. The right way, I claim. Making the most of the visual real estate available on a great big portrait display, which I highly recommend to any serious coder.
+
+If you hate it, I understand. Why not fork this repo? If you do, please keep me posted, and I'll link to you.
+
+## Pull requests
 All other PRs *very* gratefully received.
