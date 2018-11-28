@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # contributor: Phil Hudson (https://github.com/PhilHudson)
 # name: defun
-# key: def
+# key: dfn
 # --
 (defun ph/${1:function} ($2)
     "${3:Process }${2:$(upcase (replace-regexp-in-string "&[^ ]* ?" "" yas-text))}$4."

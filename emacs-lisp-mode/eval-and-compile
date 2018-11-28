@@ -1,7 +1,7 @@
 # -*- mode: snippet; require-final-newline: nil -*-
 # contributor: Phil Hudson (https://github.com/PhilHudson)
 # name: eval-and-compile
-# key: eac
+# key: evc
 # --
 (eval-and-compile
     ${0:`yas-selected-text`}

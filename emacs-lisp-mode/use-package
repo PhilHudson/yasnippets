@@ -1,0 +1,31 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# contributor: Phil Hudson (https://github.com/PhilHudson)
+# name: use-package
+# key: up
+# binding: direct-keybinding
+# --
+(use-package $1
+${2:
+    :diminish${3: "$4"}
+}${5:
+    :functions $6
+}${7:
+    :hook ($8)
+}${9:
+    :commands $10
+}${11:
+    :preface
+    $12
+}${13:
+    :config
+    $14
+}${15:
+    :init
+    $16
+}${17:
+    :if $18
+}${19:
+    :bind ( "${20:key-chord}" . ${21:command} )
+}
+$0
+)
