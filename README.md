@@ -6,16 +6,16 @@ These snippets make use of a lot of tab-navigation placeholders containing small
 
 Easier to demo than explain:
 
-  (autoload FUNCTION FILE &optional DOCSTRING INTERACTIVE TYPE)
+    (autoload FUNCTION FILE &optional DOCSTRING INTERACTIVE TYPE)
 
 has the following tab-navigation placeholders, which you can just tab to and type to replace:
 
-1. FUNCTION
-2. FILE
+1. `FUNCTION`
+2. `FILE`
 
 then:
 
-3. Everything after FILE, including the space character before `&optional`. Tab to this and hit `C-d` if you want to just remove all the optional stuff (the most common use case).
+3. Everything after `FILE`, including the space character before `&optional`. Tab to this and hit `C-d` if you want to just remove all the optional stuff (the most common use case).
 
 ## Idiosyncratic Elisp formatting
 I use C-style outdenting. That's right: closing parens on their own lines. Block structuring, visually represented. The [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree "Abstract syntax tree"), visually represented. [Sexp](https://en.wikipedia.org/wiki/S-expression "Symbolic expression") nesting, visually represented. The right way, I claim. Making the most of the visual real estate available on a great big portrait display, which I highly recommend to any serious coder.
