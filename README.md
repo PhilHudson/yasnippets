@@ -6,7 +6,7 @@ These snippets make use of a lot of tab-navigation placeholders containing small
 
 Easier to demo than explain:
 
-    (autoload FUNCTION FILE &optional DOCSTRING INTERACTIVE TYPE)
+    (autoload #'FUNCTION FILE &optional DOCSTRING INTERACTIVE TYPE)
 
 has the following tab-navigation placeholders, which you can just tab to and type to replace:
 
