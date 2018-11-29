@@ -6,26 +6,30 @@
 # --
 (use-package $1
 ${2:
-    :diminish${3: "$4"}
+    :diminish${3: "${4:highlighter}"}
 }${5:
-    :functions $6
-}${7:
-    :hook ($8)
-}${9:
-    :commands $10
-}${11:
+    :functions ${6:( ${7:functions} )}
+}${8:
+    :hook
+    ${9:hook}${10:
+OR }${11:( ${12:hooks} )}${13:
+OR }${14:( ${15:hook}${16: OR }${17:( ${18:hooks} )} . ${19:function} )}
+}${20:
+    :commands ${21:( ${22:commands} )}
+}${23:
     :preface
-    $12
-}${13:
+    $24 
+}${25:
     :config
-    $14
-}${15:
+    $26
+}${27:
     :init
-    $16
-}${17:
-    :if $18
-}${19:
-    :bind ( "${20:key-chord}" . ${21:command} )
+    $28
+}${29:
+    :if ${30:bool-val}
+}${31:
+    :bind
+    ( "${32:key-chord}" . ${33:command} )
 }
 $0
 )
