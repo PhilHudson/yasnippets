@@ -1,0 +1,5 @@
+# key: :
+# name: colon-in-use-package
+# condition: (and (beginning-of-defun) (looking-at "(use-package "))
+# --
+:${1:$$(yas-choose-value (sort '("chords" "ensure-system-package" "pin" "delight" "catch" "no-require" "defines" "requires" "disabled" "after" "custom" "custom-face" "ensure" "config" "init" "preface" "hook" "if" "defer" "load-path" "magic" "bind-keymap" "mode" "interpreter" "diminish" "bind" "functions" "commands") #'string<))}$0
