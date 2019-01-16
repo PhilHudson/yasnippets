@@ -1,0 +1,13 @@
+# key: :hook
+# name: hook-in-use-package
+# condition: (and (beginning-of-defun) (looking-at "(use-package "))
+# --
+:hook
+${1:mode-to-hook-into}${2:
+OR
+}${3:(${4:modes-to-hook-into})}${5:
+OR
+}${6:(${7:mode-to-hook-into} . ${8:function})}${9:
+OR
+}${10:((${11:modes-to-hook-into}) . ${12:function})}
+$0
