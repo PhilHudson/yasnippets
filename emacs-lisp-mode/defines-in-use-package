@@ -1,0 +1,6 @@
+# key: :defines
+# name: defines-in-use-package
+# condition: (and (beginning-of-defun) (looking-at "(use-package "))
+# --
+:defines ${1:variable}
+$0

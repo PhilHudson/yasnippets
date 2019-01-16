@@ -1,0 +1,6 @@
+# key: :functions
+# name: functions-in-use-package
+# condition: (and (beginning-of-defun) (looking-at "(use-package "))
+# --
+:functions ${1:function}
+$0
