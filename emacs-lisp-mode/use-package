@@ -30,6 +30,19 @@ OR }${14:( ${15:hook}${16: OR }${17:( ${18:hooks} )} . ${19:function} )}
 }${31:
     :bind
     ( "${32:key-chord}" . ${33:command} )
+}${34:
+    :after
+    (${35:package(s)})
+}${36:
+    :mode
+    ${37:"${38:regexp-or-string}"}${38:
+OR }${39:( "${40:regexp-or-string}" . ${41:explicit-mode-name} )}
+}${42:
+    :interpreter
+    ${43:"${44:regexp-or-string}"}${45:
+OR }${46:( "${47:regexp-or-string}" . ${48:explicit-interpreter-name} )}
+}${49:
+    :defines ${50:( ${51:dynamic-variables} )}
 }
 $0
 )
